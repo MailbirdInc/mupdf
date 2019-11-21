@@ -43,3 +43,6 @@ platform/win32/Release
 platform/win32/ReleaseOpenssl
 platform/win32/Memento
 platform/win32/x64
+platform/libmupdf-build/obj/
+platform/win32/.vs/
+platform/win32/libmupdf-build/Debug/

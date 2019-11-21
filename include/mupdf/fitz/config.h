@@ -60,16 +60,16 @@
 	unwanted fonts.
 */
 /* To avoid all noto fonts except CJK, enable: */
-/* #define TOFU */
+ #define TOFU 
 
 /* To skip the CJK font, enable: (this implicitly enables TOFU_CJK_EXT and TOFU_CJK_LANG) */
-/* #define TOFU_CJK */
+ #define TOFU_CJK 
 
 /* To skip CJK Extension A, enable: (this implicitly enables TOFU_CJK_LANG) */
-/* #define TOFU_CJK_EXT */
+ #define TOFU_CJK_EXT 
 
 /* To skip CJK language specific fonts, enable: */
-/* #define TOFU_CJK_LANG */
+ #define TOFU_CJK_LANG 
 
 /* To skip the Emoji font, enable: */
 /* #define TOFU_EMOJI */
