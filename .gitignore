@@ -46,3 +46,4 @@ platform/win32/x64
 platform/libmupdf-build/obj/
 platform/win32/.vs/
 platform/win32/libmupdf-build/Debug/
+platform/win32/libmupdf-build/Release/
