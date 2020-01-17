@@ -160,7 +160,7 @@ FZ_NORETURN static void throw(fz_context *ctx, int code)
 		fz_flush_warnings(ctx);
 		if (ctx->error.print)
 			ctx->error.print(ctx->error.print_user, "aborting process from uncaught error!");
-		exit(EXIT_FAILURE);
+		//exit(EXIT_FAILURE);
 	}
 }
 

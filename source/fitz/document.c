@@ -188,7 +188,14 @@ fz_open_accelerated_document_with_stream(fz_context *ctx, const char *magic, fz_
 fz_document *
 fz_open_document_with_stream(fz_context *ctx, const char *magic, fz_stream *stream)
 {
-	return fz_open_accelerated_document_with_stream(ctx, magic, stream, NULL);
+	fz_try(ctx)
+	{
+		return fz_open_accelerated_document_with_stream(ctx, magic, stream, NULL);
+	}
+	fz_catch(ctx)
+	{
+		return NULL;
+	}
 }
 
 /*
